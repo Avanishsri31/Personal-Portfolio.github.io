@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avanish Srivastava Portfolio</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+   <script src="https://kit.fontawesome.com/34ff4fdf9b.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+
+
+
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">My<span> Portfolio</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#projects" class="menu-btn">My Project</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#mystats" class="menu-btn">My Stats</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">AVANISH SRIVASTAVA</div>
+        <div class="text-3">Im a <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="images\My pic (1).jpg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm AVANISH SRIVASTAVA and Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            Self-motivated and hardworking graduate seeking an opportunity to work in a challenging enviroment to prove my coding skills and utilize my knowladge of various databases for the growth of the organization.
+          </p>
+          <a href="https://drive.google.com/open?id=1-KZtOGJvrivhMl9NgNl4Mghnv8535T8b&authuser=avanishsri31%40gmail.com&usp=drive_fs">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="projects" id="projects">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Projects</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <img src="images\speechtotext.png" alt="html", id="html-icon" data-aos="flip-left" height="auto" width="100%">
+            <div class="text">Project-1</div>
+            <h1>
+              Speech To Text Converter
+
+            </h1>
+            <p>Technologies Used-HTML, CSS, JAVASCRIPT</p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <img src="images\Residencia.png" alt="html", id="html-icon" data-aos="flip-left" height="auto" width="100%">
+            <div class="text">Project-2</div>
+            <h1>
+              Residencia (Hotel Room Booking Using Blockchain)
+            </h1>
+            <p>Technologies Used-REACT, NODE.JS, MONGODB, SOLIDITY, WEB3.JS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text1">
+            Languages I Know:
+          </div>
+          <p class="paragraph-2">
+           Programming Languages-C/C++,JAVA
+          </p>
+          <div class="text2">
+            Web Developement:
+          </div>
+          <p class="paragraph-3">Frontend-HTML,CSS,JAVASCRIPT,REACT</p>
+          <p class="paragraph-4">Backend-NODE.JS,MONGODB,EXPRESS.JS</p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-mongodb.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+      </div>
+  </section>
+
+  <!-- My Stats Section -->
+  <section class="mystats" id="mystats">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Stats</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <img src="images\leetcode.png" alt="html", id="html-icon" data-aos="flip-left" height="auto" width="100%">
+            <div class="text">LeetCode Questions</div>
+            <h1>
+              500+ Problems Solved.
+              </h1>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <img src="images\HackerRank_logo.png" alt="html", id="html-icon" data-aos="flip-left" height="auto" width="100%">
+            <div class="text">Hackerrank Questions</div>
+            <h1>
+              6 Star Problem Solving and 5 Star CPP.
+            </h1>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <img src="images\codechef.png" alt="html", id="html-icon" data-aos="flip-left" height="auto" width="100%">
+            <div class="text">Codechef Questions</div>
+            <h1>
+              3 Star Coder.
+            </h1>
+          </div>
+        </div>
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <img src="images\gfg.png" alt="html", id="html-icon" data-aos="flip-left" height="auto" width="100%">
+            <div class="text">GFG Questions</div>
+            <h1>
+              140+ Problem Solved.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">You can contact me anytime through my contact number or email.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user-circle"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">AVANISH SRIVASTAVA</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">81E NEAR CANAL ROAD BEHIND SUKHNATHKUNJ DAUDPUR GORAKHPUR</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class='fas fa-envelope'></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">avanishsri31@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">AVANISH SRIVASTAVA</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div class="social">
+          <a href="https://www.linkedin.com/in/avanish-srivastava-533035203/" target="_blank">
+            <button class="icon-btn linkedin">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </button>
+          </a>
+          <a href="https://github.com/Avanishsri31" target="_blank">
+            <button class="icon-btn github">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </button>
+          </a>
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
