@@ -15,3 +15,6 @@ This project is built using HTML, CSS, JAVASCRIPT.
 ## Skills
 ![](./images/Skills.png)
 
+## My Stats
+![](./images/Stats.png)
+
