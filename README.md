@@ -18,3 +18,6 @@ This project is built using HTML, CSS, JAVASCRIPT.
 ## My Stats
 ![](./images/Stats.png)
 
+## Contact
+![](./images/Contact.png)
+
